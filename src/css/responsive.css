@@ -1,0 +1,81 @@
+@media (max-width: 425px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .header img {
+        width: 50%;
+    }
+    
+    .main {
+        display: block;
+        text-align: center;
+    }
+    .main .img-container,
+    .main .text-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+    .main .text-container h1 {
+        font-size: 2rem;
+        padding-top: 4rem;
+    }
+    .main .text-container p {
+        font-size: 1.4rem;
+    }
+    .main .text-container {
+        padding-top: 4rem;
+        gap: 4rem;
+    }
+
+    .main .text-container a {
+        margin: 0 auto;
+        font-size: 1.4rem;
+    }
+    
+    .footer {
+        text-align: center;
+        margin: 0 auto;
+        padding: 2rem 0;
+        font-size: 1.2rem;
+
+}
+ }
+
+@media (max-width:1024px) {
+    .header img {
+        width: 50%;
+    }
+    
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .main .img-container,
+    .main .text-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        justify-content: center;
+    }
+ 
+   
+    .main .text-container {
+        padding-top: 4rem;
+        gap: 4rem;
+    }
+
+    .main .text-container a {
+        margin: 0 auto;
+    }
+    
+    .footer {
+        text-align: center;
+        margin: 0 auto;
+        padding: 2rem 0;
+}
+}
